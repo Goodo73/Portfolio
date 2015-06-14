@@ -14,5 +14,8 @@ For each project:
 - Link to deployed site
 - Discuss challenges & successes in development
 
+#### Page
+- Smooth scrolling between sections
+
 ### Acknowledgement
 The layout of the page was inspired by the DevTips YouTube channel; specifically their video series [How to build a responsive website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI).
