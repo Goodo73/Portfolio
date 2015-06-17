@@ -1,11 +1,6 @@
 $pinkyRed: #E74668;
 $coolBlue: #0098A4;
 
-body {
-/*	max-width: 1920px;
-	margin: 0 auto;
-*/
-}
 
 /* ------------------------ */
 /* HEADER & FOOTER SECTIONS */
@@ -50,10 +45,14 @@ header {
 
 		h1 {
 			font-size: 5.5em;
-			margin: 0 auto;
-			border: solid 10px;
-			width: 50%;
-			padding: 20px 20px;
+			text-align: center;
+			margin: 0;
+
+			span {
+				border: solid 10px;
+				padding: 20px 20px;
+				display: inline-block;
+			}
 		}
 
 		p {
@@ -69,6 +68,7 @@ footer {
 
 	p {
 		margin-left: 20px;
+		text-shadow: 1px 1px 5px #000;
 	}
 }
 
@@ -76,7 +76,7 @@ footer {
 /* COMBINED SECTIONS */
 /* ----------------- */
 
-#about, #projects, /*#skills, */#contact {
+#about, #projects, #contact {
 	padding: 50px 0;
 
 	h2 {
@@ -144,26 +144,6 @@ footer {
 	background-color: $pinkyRed;
 }
 
-/* -------------- */
-/* SKILLS SECTION */
-/* -------------- */
-
-/*#skills {
-	margin: 0 auto;
-
-	.grouped {
-		margin-top: 30px;
-		margin-left: 20%;
-	}
-
-	p {
-		float: left;
-		width: 33%;
-		font-size: 1.3em;
-		line-height: 1.6em;
-	}
-}
-*/
 /* --------------- */
 /* CONTACT SECTION */
 /* --------------- */
@@ -197,37 +177,4 @@ footer {
 		text-align: center;
 		font-size: 3em;
 	}
-}
-
-/* ------------------- */
-/* MICRO CLEARFIX HACK */
-/* ------------------- */
-
-/**
- * http://nicolasgallagher.com/micro-clearfix-hack/
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
 }
