@@ -1,6 +1,9 @@
+/* -------------- */
+/* SASS VARIABLES */
+/* -------------- */
+
 $pinkyRed: #E74668;
 $coolBlue: #0098A4;
-
 
 /* ------------------------ */
 /* HEADER & FOOTER SECTIONS */
@@ -142,6 +145,47 @@ footer {
 
 #projects {
 	background-color: $pinkyRed;
+
+	.cards {
+		width: 90%;
+		margin: 30px auto 0;
+
+		.card {
+			float: left;
+			width: 40%;
+			padding: 5px 10px;
+			height: 225px;
+			margin: 10px 5%;
+			background-color: #999;
+			background-size: cover;
+			background-position: top;
+		}
+
+		.card:hover {
+			opacity: 0.7;
+		}
+
+		p[data-name="hotflix"] {
+			background-image: url(../images/hotflix.jpg);
+		}
+		p[data-name="book"] {
+			background-image: url(../images/book.jpg);
+		}
+		p[data-name="rebel"] {
+			background-image: url(../images/rebel.jpg);
+		}
+		p[data-name="nlhe"] {
+			background-image: url(../images/nlhe.jpg);
+		}
+	}
+}
+
+/* ----------------------- */
+/* PROJECT DETAILS SECTION */
+/* ----------------------- */
+
+.details {
+	display: none;
 }
 
 /* --------------- */

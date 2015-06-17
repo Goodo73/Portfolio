@@ -9,8 +9,7 @@
     <!-- Use the title in the page YAML frontmatter -->
     <title><%= current_page.data.title %></title>
 
-    <%#= stylesheet_link_tag "normalize", "all" %>
-    <%= stylesheet_link_tag "normalize", "base" %>
+    <%= stylesheet_link_tag "normalize", "clearfix", "border-box", "base" %>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     
     <%= javascript_include_tag  "all" %>
