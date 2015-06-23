@@ -10,69 +10,69 @@ $coolBlue: #0098A4;
 /* ------------------------ */
 
 header, footer {
-	color: white;
-	background: url(../images/controls.jpg) center center;
-	background-size: cover;
+  color: white;
+  background: url(../images/controls.jpg) center center;
+  background-size: cover;
 
-	nav {
-		padding-top: 20px;
-		text-align: right;
+  nav {
+    padding-top: 20px;
+    text-align: right;
 
-		a {
-			color: white;
-			font-weight: bold;
-			font-size: 1.1em;
-			text-decoration: none;
-			text-transform: uppercase;	
-			display: inline-block;
-			margin-right: 20px;
-			text-shadow: 1px 1px 5px #444;
-		}
+    a {
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+      text-decoration: none;
+      text-transform: uppercase;  
+      display: inline-block;
+      margin-right: 20px;
+      text-shadow: 1px 1px 5px #444;
+    }
 
-		a:hover {
-			color: $pinkyRed;
-			text-shadow: 1px 1px 5px #FFF;
-		}
-	}
+    a:hover {
+      color: $pinkyRed;
+      text-shadow: 1px 1px 5px #FFF;
+    }
+  }
 }
 
 header {
-	height: 450px;
+  height: 450px;
 
-	#page-heading {
-		text-align: center;
-		font-weight: 700;
-		text-shadow: 1px 1px 5px #555;
-		padding-top: 80px;
-		text-transform: uppercase;
+  #page-heading {
+    text-align: center;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px #555;
+    padding-top: 80px;
+    text-transform: uppercase;
 
-		h1 {
-			font-size: 5.5em;
-			text-align: center;
-			margin: 0;
+    h1 {
+      font-size: 5.5em;
+      text-align: center;
+      margin: 0;
 
-			span {
-				border: solid 10px;
-				padding: 20px 20px;
-				display: inline-block;
-			}
-		}
+      span {
+        border: solid 10px;
+        padding: 20px 20px;
+        display: inline-block;
+      }
+    }
 
-		p {
-			text-align: center;
-			font-size: 1.5em;
-			margin-top: 30px;
-		}
-	}
+    p {
+      text-align: center;
+      font-size: 1.5em;
+      margin-top: 30px;
+    }
+  }
 }
 
 footer {
-	height: 100px;
+  height: 100px;
 
-	p {
-		margin-left: 20px;
-		text-shadow: 1px 1px 5px #000;
-	}
+  p {
+    margin-left: 20px;
+    text-shadow: 1px 1px 5px #000;
+  }
 }
 
 /* ----------------- */
@@ -80,18 +80,18 @@ footer {
 /* ----------------- */
 
 #about, #projects, #contact {
-	padding: 50px 0;
+  padding: 50px 0;
 
-	h2 {
-		text-align: center;
-		margin: 0;
-		text-transform: uppercase;
-	}
+  h2 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+  }
 }
 
 #projects, #contact {
-	color: white;
-	text-shadow: 1px 1px 5px #555;
+  color: white;
+  text-shadow: 1px 1px 5px #555;
 }
 
 /* ------------- */
@@ -99,44 +99,44 @@ footer {
 /* ------------- */
 
 #about {
-	#headshots {
-		text-align: center;
-	}
+  #headshots {
+    text-align: center;
+  }
 
-	.headshot-1, .headshot-2, .headshot-3 {
-		width: 175px; 
-		height: 175px; 
-		background-size: cover;
-		border-radius: 50%;
-		margin: 30px 30px;
-		display: inline-block;
-	}
+  .headshot-1, .headshot-2, .headshot-3 {
+    width: 175px; 
+    height: 175px; 
+    background-size: cover;
+    border-radius: 50%;
+    margin: 30px 30px;
+    display: inline-block;
+  }
 
-	.headshot-1 {
-		background-image: url(../images/headshot-1.jpg);
-	}
+  .headshot-1 {
+    background-image: url(../images/headshot-1.jpg);
+  }
 
-	.headshot-2 {
-		background-image: url(../images/headshot-2.jpg);
-	}
+  .headshot-2 {
+    background-image: url(../images/headshot-2.jpg);
+  }
 
-	.headshot-3 {
-		background-image: url(../images/headshot-3.jpg);
-	}
+  .headshot-3 {
+    background-image: url(../images/headshot-3.jpg);
+  }
 
-	.blurb {
-		width: 50%;
-		text-align: center;
-		margin: 0 auto;
-		font-size: 1.3em;
-		line-height: 1.6em;
+  .blurb {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.6em;
 
-		a {
-			color: black;
-			text-decoration: none;
-			font-weight: bold;
-		}
-	}
+    a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
 }
 
 /* ---------------- */
@@ -144,40 +144,40 @@ footer {
 /* ---------------- */
 
 #projects {
-	background-color: $pinkyRed;
+  background-color: $pinkyRed;
 
-	.cards {
-		width: 90%;
-		margin: 30px auto 0;
+  .cards {
+    width: 90%;
+    margin: 30px auto 0;
 
-		.card {
-			float: left;
-			width: 40%;
-			padding: 5px 10px;
-			height: 225px;
-			margin: 10px 5%;
-			background-color: #999;
-			background-size: cover;
-			background-position: top;
-		}
+    .card {
+      float: left;
+      width: 40%;
+      padding: 5px 10px;
+      height: 225px;
+      margin: 10px 5%;
+      background-color: #999;
+      background-size: cover;
+      background-position: top;
+    }
 
-		.card:hover {
-			opacity: 0.7;
-		}
+    .card:hover {
+      opacity: 0.7;
+    }
 
-		p[data-name="hotflix"] {
-			background-image: url(../images/hotflix.jpg);
-		}
-		p[data-name="book"] {
-			background-image: url(../images/book.jpg);
-		}
-		p[data-name="rebel"] {
-			background-image: url(../images/rebel.jpg);
-		}
-		p[data-name="nlhe"] {
-			background-image: url(../images/nlhe.jpg);
-		}
-	}
+    p[data-name="hotflix"] {
+      background-image: url(../images/hotflix.jpg);
+    }
+    p[data-name="book"] {
+      background-image: url(../images/book.jpg);
+    }
+    p[data-name="rebel"] {
+      background-image: url(../images/rebel.jpg);
+    }
+    p[data-name="nlhe"] {
+      background-image: url(../images/nlhe.jpg);
+    }
+  }
 }
 
 /* ----------------------- */
@@ -185,7 +185,7 @@ footer {
 /* ----------------------- */
 
 .details {
-	display: none;
+  display: none;
 }
 
 /* --------------- */
@@ -193,32 +193,32 @@ footer {
 /* --------------- */
 
 #contact {
-	background-color: $coolBlue;
+  background-color: $coolBlue;
 
-	a {
-		color: white;
-		text-decoration: none;
-	}
+  a {
+    color: white;
+    text-decoration: none;
+  }
 
-	ul {
-		padding: 0;
-		margin: 50px 0 0;
-		text-align: center;
-		list-style-type: none;
+  ul {
+    padding: 0;
+    margin: 50px 0 0;
+    text-align: center;
+    list-style-type: none;
 
-		li {
-			display: inline;
-			margin-right: 80px;
-		}
+    li {
+      display: inline;
+      margin-right: 80px;
+    }
 
-		li:last-child {
-			margin-right: 0;
-		}
-	}
+    li:last-child {
+      margin-right: 0;
+    }
+  }
 
-	.email {
-		margin: 50px 0 0;
-		text-align: center;
-		font-size: 3em;
-	}
+  .email {
+    margin: 50px 0 0;
+    text-align: center;
+    font-size: 3em;
+  }
 }
